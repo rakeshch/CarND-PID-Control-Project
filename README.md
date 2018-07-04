@@ -5,38 +5,44 @@ In this project, my goal is to implement a PID controller with hyperparameters o
 
 # PID Controller 
 
-## P 
+## Proportional (P) term
 
 The "Proportional" Controller makes the car steer in proportion to the cross track error (CTE). CTE is essentially how far from the middle line of the road the car is. The proportional factor Kp is mulitplied by the CTE to calculate the steering angle. This results in the car overshooting, then changing course and oscillating. Increasing Kp makes the the vehicle to oscillate faster.
 
 P Controller Observation:
 
 Kp= 0.1 
+
 Ki =0
+
 Kd=0
 
 The car starts to osciallte after few seconds and goes off the track. I have increased the value of Kp to 0.5 and the car starts oscillating even faster and goes off the track.
 
-## D 
+## Differential (D) term
 
 The "Differential" term in PD Controller makes the steering angle to decrease as it reaches the reference trajectory. This allows the car to approach the trajectory "gracefully" without osclillations. It is calculated by multiplying the differential factor Kd by the derivative of CTE. This is equal to CTE at timestep t - CTE at timestep t-1 divided by delta t. The larger Kd will make the steering angle decrease faster as it reaches the reference trajectory
 
 PD Controller Observation:
 
 Kp= 0.1
+
 Kd=1.0
+
 Ki= 0.
 
 The car was able to drive around the race track without any issues but the turnings were not smooth as it slightly goes on to the side markings at the turnings.
 
-## I 
+## Integral (I) term
 
 The "Integral" term corrects systemic bias such as steering drift. The integral factor Ki is multiplied by sum of all the previous CTE's. 
 
 PID Controller Observation:
 
 Kp= 0.1
+
 Kd=1.0
+
 Ki= 0.005
 
 The car now stays on the centre of the race track and making smooth turns without going off the road.
