@@ -60,7 +60,7 @@ A video of the above observation can be seen [here](https://youtu.be/g3C4ZUQVVDw
 
 ## Conclusion
 
-In the end, the final values were determined by manual tuning. The ratio of the coefficients to each other that I have choosen (Kp= 0.1, Ki= 0.005, Kd=2.0) seemed to work well with the car stays on track with smoother turns, and I also tried lowering and raising them in conjunction with each other as well as tuning each individually
+In the end, the final values were determined by manual tuning. The ratio of the coefficients to each other that I have choosen (Kp= 0.1, Ki= 0.005, Kd=2.0) seemed to work well with the car stays on track with smoother turns, and I also tried lowering and raising them in conjunction with each other as well as tuning each individually.
 
 ## Dependencies
 
