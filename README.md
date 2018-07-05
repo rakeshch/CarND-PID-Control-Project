@@ -18,7 +18,10 @@ Kd=0
 
 The car starts to osciallte after few seconds and goes off the track. I have increased the value of Kp to 0.5 and the car starts oscillating even faster and goes off the track.
 
-A demo can be seen here[https://youtu.be/Jso-v24uOqs]
+A demo can be seen [!here[https://youtu.be/Jso-v24uOqs]] or below
+
+<a href="https://youtu.be/Jso-v24uOqs" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## Differential (D) component
 
