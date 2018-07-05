@@ -18,6 +18,11 @@ Kd=0
 
 The car starts to osciallte after few seconds and goes off the track. I have increased the value of Kp to 0.5 and the car starts oscillating even faster and goes off the track.
 
+A demo can be seen [!here[https://youtu.be/Jso-v24uOqs]] or below
+
+<a href="https://youtu.be/Jso-v24uOqs" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 ## Differential (D) component
 
 The "Differential" component makes the steering angle to decrease as it reaches the reference trajectory. This allows the car to approach the trajectory "gracefully" without osclillations. It is calculated by multiplying the differential factor Kd by the derivative of CTE. This is equal to CTE at timestep t - CTE at timestep t-1 divided by delta t. The larger Kd will make the steering angle decrease faster as it reaches the reference trajectory
@@ -31,6 +36,8 @@ Kd=1.0
 Ki= 0.
 
 The car was able to drive around the race track but the turnings were not smooth as it goes on to the side markings at the turnings.
+
+A demo can be seen here[https://youtu.be/fv8dBAJlszk]
 
 ## Integral (I) component
 
@@ -46,7 +53,11 @@ Ki= 0.005
 
 The car now stays on the centre of the race track and making smooth turns without going off the road.
 
-In the end, the final values were determined by manual tuning. The ratio of the coefficients to each other that I have choosen (Kp= 0.1, Ki= 0.004, Kd=2.0) seemed to work well with the car stays on track with smoother turns, and I also tried lowering and raising them in conjunction with each other as well as tuning each individually
+A demo can be seen here[https://youtu.be/g3C4ZUQVVDw]
+
+## Conclusion
+
+In the end, the final values were determined by manual tuning. The ratio of the coefficients to each other that I have choosen (Kp= 0.1, Ki= 0.005, Kd=2.0) seemed to work well with the car stays on track with smoother turns, and I also tried lowering and raising them in conjunction with each other as well as tuning each individually
 
 ## Dependencies
 
