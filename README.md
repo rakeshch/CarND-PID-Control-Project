@@ -18,10 +18,10 @@ Kd=0
 
 The car starts to osciallte after few seconds and goes off the track. I have increased the value of Kp to 0.5 and the car starts oscillating even faster and goes off the track.
 
-A demo can be seen [!here[https://youtu.be/Jso-v24uOqs]] or below
+A demo can be seen [below](https://youtu.be/Jso-v24uOqs) 
 
-<a href="https://youtu.be/Jso-v24uOqs" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<a href="https://youtu.be/Jso-v24uOqs" target="_blank"><img src="http://img.youtube.com/vi/Jso-v24uOqs/2.jpg" 
+alt="P Controller" width="240" height="180" border="10" /></a>
 
 ## Differential (D) component
 
@@ -37,7 +37,10 @@ Ki= 0.
 
 The car was able to drive around the race track but the turnings were not smooth as it goes on to the side markings at the turnings.
 
-A demo can be seen here[https://youtu.be/fv8dBAJlszk]
+A demo can be seen [below](https://youtu.be/fv8dBAJlszk) or below
+
+<a href="https://youtu.be/fv8dBAJlszk" target="_blank"><img src="http://img.youtube.com/vi/fv8dBAJlszk/2.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## Integral (I) component
 
@@ -53,7 +56,10 @@ Ki= 0.005
 
 The car now stays on the centre of the race track and making smooth turns without going off the road.
 
-A demo can be seen here[https://youtu.be/g3C4ZUQVVDw]
+A demo can be seen [here](https://youtu.be/g3C4ZUQVVDw) or below
+
+<a href="https://youtu.be/g3C4ZUQVVDw" target="_blank"><img src="http://img.youtube.com/vi/g3C4ZUQVVDw/2.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## Conclusion
 
