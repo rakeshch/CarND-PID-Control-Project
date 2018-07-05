@@ -18,9 +18,9 @@ Kd=0
 
 The car starts to osciallte after few seconds and goes off the track (can be seen in the image below). I have increased the value of Kp to 0.5 and the car starts oscillating even faster and goes off the track.
 
-![Screenshot](./images/p_controller.jpg")
+![Screenshot](./images/p_controller.JPG)
 
-A small video of the above observation can be seen [here](https://youtu.be/Jso-v24uOqs) 
+A video of the above observation can be seen [here](https://youtu.be/Jso-v24uOqs) 
 
 ## Differential (D) component
 
@@ -36,9 +36,9 @@ Ki= 0.
 
 The car was able to drive around the race track but the turnings were not smooth (as seen in the image below) as it goes on to the side markings at the turnings.
 
-![Screenshot](./images/PD_controller.jpg")
+![Screenshot](./images/PD_controller.JPG)
 
-A small video of the above observation can be seen [here](https://youtu.be/fv8dBAJlszk) 
+A video of the above observation can be seen [here](https://youtu.be/fv8dBAJlszk) 
 
 ## Integral (I) component
 
@@ -54,13 +54,13 @@ Ki= 0.005
 
 The car now stays on the centre of the race track and making smooth turns (as seen in the image below) without going off the road.
 
-![Screenshot](./images/PID_controller.jpg")
+![Screenshot](./images/PID_controller.JPG)
 
 A video of the above observation can be seen [here](https://youtu.be/g3C4ZUQVVDw) 
 
 ## Conclusion
 
-In the end, the final values were determined by manual tuning. The ratio of the coefficients to each other that I have choosen (Kp= 0.1, Ki= 0.005, Kd=2.0) seemed to work well with the car stays on track with smoother turns, and I also tried lowering and raising them in conjunction with each other as well as tuning each individually
+In the end, the final values were determined by manual tuning. The ratio of the coefficients to each other that I have choosen (Kp= 0.1, Ki= 0.005, Kd=2.0) seemed to work well with the car stays on track with smoother turns, and I also tried lowering and raising them in conjunction with each other as well as tuning each individually.
 
 ## Dependencies
 
